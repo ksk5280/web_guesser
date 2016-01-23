@@ -1,8 +1,15 @@
 <html>
   <head></head>
   <body>
+    <form>
+      <input type="text" name="guess" />
+      <input type="submit" value="Guess!" />
+    </form>
     <p>
-      The SECRET NUMBER is <%= number %>
+      <%= params['guess'] %> is <%=message %>
+    </p>
+    <p>
+      
     </p>
   </body>
 </html>
